@@ -1,6 +1,6 @@
 defmodule Exbee.DigiMeshTxResultFrame do
   @moduledoc """
-  Received upon completion of a `Exbee.TxFrame` or `Exbee.ExplicitTxFrame`. The
+  Received upon completion of a `Exbee.DigiMeshTxFrame`. The
   `:status` attribute indicates whether the transmission was successful.
 
   Possible status values include:
